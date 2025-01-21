@@ -44,7 +44,7 @@ The ransomware samples used for this study were sourced from the following platf
 - **SnapFiles, PortableApps.com, GitHub**: For benign software samples to ensure a balanced dataset.
 
 ## Methodology
-![Image](https://github.com/user-attachments/assets/9c68a9d9-a7e4-41ff-bb73-f97ef86e1055)
+![Image](https://github.com/user-attachments/assets/2ed7a6eb-fffa-4428-90fc-45287cf05315)
 ### 1. Sample Collection and Selection
 Ransomware samples were chosen based on the following criteria:
 - **High Prevalence**: Samples were selected from ransomware families that have been reported as prevalent in major cybersecurity publications.
