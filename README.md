@@ -38,10 +38,17 @@ The following files are used for preprocessing and are available in the reposito
 - **Other Metrics**: High **precision**, **recall**, and **F1-score** across both ransomware and benign classes.
 
 ## Dataset Sources
-The ransomware samples used for this study were sourced from the following platforms:
+The samples used for this study were collected from the following publicly available sources:
 - **MalwareBazaar**: For collecting high-impact ransomware samples from known families.
+  https://bazaar.abuse.ch/browse/
 - **VirusShare**: A trusted source for ransomware data and samples.
+  https://virusshare.com/
 - **SnapFiles, PortableApps.com, GitHub**: For benign software samples to ensure a balanced dataset.
+  https://www.snapfiles.com/freeware/
+  
+  https://portableapps.com/
+  
+  https://github.com/iosifache/DikeDataset/tree/main/files/benign
 
 ## Methodology
 ![Image](https://github.com/user-attachments/assets/2ed7a6eb-fffa-4428-90fc-45287cf05315)
@@ -90,7 +97,7 @@ The models were evaluated based on their ability to classify the ransomware and 
 4. **Scalability**: Integrating additional models and increasing platform compatibility will allow the system to scale efficiently.
 
 ## Dataset
-The dataset used in this study comprises dynamic features extracted from ransomware samples. These features were transformed into images for classification. The dataset is currently under the approval process by our university for sharing. Once approved, we will provide a download link here.
+The dataset used in this study comprises dynamic features extracted from ransomware samples. These features were transformed into images for classification. The dataset for our study was prepared at Charles Sturt University (CSU) and is subject to institutional guidelines. We are currently seeking CSU approval to make it publicly available. Once approved, we will provide the dataset along with comprehensive reproduction instructions.
 
 ## Acknowledgments
 - **MalwareBazaar** for providing ransomware samples.
@@ -98,5 +105,5 @@ The dataset used in this study comprises dynamic features extracted from ransomw
 - **Cuckoo Sandbox** for dynamic analysis of ransomware behaviors.
   
 ## Contact
-For inquiries or contributions, feel free to reach out to [your email/contact info].
+For inquiries or contributions, feel free to reach out to [jferdous@csu.edu.au].
 
